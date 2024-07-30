@@ -2,7 +2,7 @@ import * as React from 'react';
 
 interface IInputFieldProps {
 	name: string;
-	type: 'color' | 'range' | 'text';
+	type: 'color' | 'range' | 'text' | 'number';
 	min?: number;
 	max?: number;
 	step?: number;
